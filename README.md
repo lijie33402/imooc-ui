@@ -1,24 +1,20 @@
-# mooc-ui
+# mooc-ui组件库
+### 快速开始
+#### 1.安装组件库
 
-## Project setup
+```bash
+npm i imooc-ui
 ```
-npm install
-```
+#### 2.引入组件库
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+```bash
+// 全部引入
+import 'imooc-ui/dist/css/index.css'
+import MUI from "imooc-ui";
+Vue.use(MUI);
 
-### Compiles and minifies for production
+// 按需引入
+import 'imooc-ui/dist/css/demo.css'
+import { Demo } from "imooc-ui";
+Vue.use(Demo);
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
