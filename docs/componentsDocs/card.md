@@ -3,7 +3,7 @@
 
 ### 示例
 
-<m-card imgSrc="/vue-cli.jpg" summary="card" />
+<m-card imgSrc="/imooc-ui/vue-cli.jpg" summary="card" />
 
 ### 代码
 ```html
